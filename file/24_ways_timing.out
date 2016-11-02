@@ -1,0 +1,182 @@
+
+Starting File Processing of each Method
+
+Method 1:
+function cat_while_read_line
+
+real	0m0.581s
+user	0m0.256s
+sys	0m0.328s
+
+Method 2:
+function while_read_LINE_bottom
+
+real	0m0.287s
+user	0m0.232s
+sys	0m0.056s
+
+Method 3:
+function cat_while_LINE_line
+
+real	0m12.637s
+user	0m0.864s
+sys	0m2.104s
+
+Method 4:
+function while_LINE_line_bottom
+
+real	0m12.860s
+user	0m0.872s
+sys	0m2.140s
+
+Method 5:
+function cat_while_LINE_line_cmdsub2
+
+real	0m13.314s
+user	0m1.168s
+sys	0m2.240s
+
+Method 6:
+function while_LINE_line_bottom_cmdsub2
+
+real	0m12.824s
+user	0m1.128s
+sys	0m2.028s
+
+Method 7:
+function for_LINE_cat_file
+
+real	0m0.274s
+user	0m0.236s
+sys	0m0.036s
+
+Method 8:
+function for_LINE_cat_file_cmdsub2
+
+real	0m0.277s
+user	0m0.236s
+sys	0m0.040s
+
+Method 9:
+function while_line_outfile
+
+real	0m6.345s
+user	0m0.588s
+sys	0m1.196s
+ERROR: largefile.random.txt and writefile.out do not match
+-rw-r--r-- 1 hongda users 1024000 11月  1 00:16 largefile.random.txt
+-rw-r--r-- 1 hongda users  512000 11月  3 00:14 writefile.out
+
+Method 10:
+function while_read_LINE_FD_IN
+
+real	0m0.514s
+user	0m0.396s
+sys	0m0.120s
+
+Method 11:
+function cat_while_read_LINE_FD_OUT
+
+real	0m0.429s
+user	0m0.256s
+sys	0m0.180s
+
+Method 12:
+function while_read_LINE_bottom_FD_OUT
+
+real	0m0.264s
+user	0m0.224s
+sys	0m0.040s
+
+Method 13:
+function while_LINE_line_bottom_FD_OUT
+
+real	0m13.506s
+user	0m1.876s
+sys	0m2.432s
+
+Method 14:
+function while_LINE_line_bottom_cmdsub2_FD_OUT
+
+real	0m14.054s
+user	0m2.144s
+sys	0m2.544s
+
+Method 15:
+function for_LINE_cat_FILE_FD_OUT
+
+real	0m0.381s
+user	0m0.352s
+sys	0m0.028s
+
+Method 16:
+function for_LINE_cat_FILE_cmdsub2_FD_OUT
+
+real	0m0.374s
+user	0m0.320s
+sys	0m0.052s
+
+Method 17:
+function while_line_outfile_FD_IN
+
+real	0m6.438s
+user	0m0.300s
+sys	0m1.316s
+ERROR: largefile.random.txt and writefile.out do not match
+-rw-r--r-- 1 hongda users 1024000 11月  1 00:16 largefile.random.txt
+-rw-r--r-- 1 hongda users  512000 11月  3 00:15 writefile.out
+
+Method 18:
+function while_line_outfile_FD_OUT
+
+real	0m5.483s
+user	0m0.884s
+sys	0m1.164s
+ERROR: largefile.random.txt and writefile.out do not match
+-rw-r--r-- 1 hongda users 1024000 11月  1 00:16 largefile.random.txt
+-rw-r--r-- 1 hongda users       0 11月  3 00:15 writefile.out
+
+Method 19:
+function while_line_outfile_FD_IN_AND_OUT
+
+real	0m5.003s
+user	0m1.376s
+sys	0m0.872s
+ERROR: largefile.random.txt and writefile.out do not match
+-rw-r--r-- 1 hongda users 1024000 11月  1 00:16 largefile.random.txt
+-rw-r--r-- 1 hongda users  512000 11月  3 00:15 writefile.out
+
+Method 20:
+function while_LINE_line_FD_IN
+
+real	0m12.578s
+user	0m3.496s
+sys	0m2.164s
+
+Method 21:
+function while_LINE_line_cmdsub2_FD_IN
+
+real	0m14.564s
+user	0m1.276s
+sys	0m2.836s
+
+Method 22:
+function while_read_LINE_FD_IN_AND_OUT
+
+real	0m0.265s
+user	0m0.232s
+sys	0m0.032s
+
+Method 23:
+function while_LINE_line_FD_IN_AND_OUT
+
+real	0m13.988s
+user	0m0.712s
+sys	0m2.772s
+
+Method 24:
+function while_LINE_line_cmdsub2__FD_IN_AND_OUT
+
+real	0m14.501s
+user	0m0.936s
+sys	0m2.788s
