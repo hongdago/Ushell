@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+set timeout -1
+spawn ./lunch_time.sh
+expect "Hey Bob,you in?\r"
+send -- "Yes\r"
+expect -exact "Yes\r"
+expect "Have you eaten yet?\r"
+send -- "No\r"
+expect "You want to?\r"
+send -- "Where at?\r"
+expect "How about that Italian place?\r"
+send -- "Works for me\r"
+expect "Meet you in the lobby\r"
+send -- "Groovy man\r"
+expect -exact "Groovy man\r"
+expect eof
